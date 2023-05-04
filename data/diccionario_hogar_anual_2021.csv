@@ -1,0 +1,35 @@
+﻿,COLUMNA,DESCRIPCION,TIPO_DATO,LONGITUD,CODIGO_VALIDO,METADATOS
+0,UPM,Unidad primaria de muestreo,Varchar2,7,[0100023-3260794],Unidad primaria de muestreo
+1,VIV_SEL,Vivienda seleccionada,Varchar2,2,[01-42],Vivienda seleccionada 
+2,HOGAR,Número de Hogar en la vivienda,Varchar2,2,[01-05],Número de Hogar en la vivienda
+3,P4_1_1,"4.1 Por favor, dígame si disponen de los siguientes bienes:
+Radio",Varchar2,1,[1-2],"1 Sí, 2 No"
+4,P4_1_2,"4.1 Por favor, dígame si disponen de los siguientes bienes:
+Televisor analógico (de cinescopio)",Varchar2,1,[1-2],"1 Sí, 2 No"
+5,P4_1_3,"4.1 Por favor, dígame si disponen de los siguientes bienes:
+Decodificador de TV digital abierta (diferente a TV de paga)",Varchar2,1,[1-2],"1 Sí, 2 No"
+6,P4_1_4,"4.1 Por favor, dígame si disponen de los siguientes bienes:
+Pantalla plana (televisor digital, LCD o LED)",Varchar2,1,[1-2],"1 Sí, 2 No"
+7,P4_1_5,"4.1 Por favor, dígame si disponen de los siguientes bienes:
+Consola de videojuegos",Varchar2,1,[1-2],"1 Sí, 2 No"
+8,P4_1_6,"4.1 Por favor, dígame si disponen de los siguientes bienes: 
+Teléfono celular móvil (por cualquiera de los integrantes)",Varchar2,1,[1-2],"1 Sí, 2 No"
+9,P4_1_6_1,"¿En total, de cuántos teléfonos
+celulares disponen en el hogar?",Number,2,"[01-98, 99]",99 No sabe
+10,P4_1_6_2,"¿Cuántos de estos son celulares
+inteligentes (Smartphone)?",Number,2,"[01-98, 99]",99 No sabe
+11,P4_2_1,"4.2 ¿Disponen de... 
+computadora de escritorio (Teclado, monitor y CPU se encuentran separados)?",Varchar2,1,[1-2],"1 Sí, 2 No"
+12,P4_2_2,"4.2 ¿Disponen de... 
+computadora portátil (teclado, monitor y CPU se encuentran integrados físicamente)?",Varchar2,1,[1-2],"1 Sí, 2 No"
+13,P4_2_3,"4.2 ¿Disponen de... 
+Tablet (teclado y puntero virtuales en la pantalla táctil)?",Varchar2,1,[1-2],"1 Sí, 2 No"
+14,P4_3,"4.3 ¿Por qué no disponen de computadora, laptop o Tablet?",Varchar2,1,[1-8],"1 Falta de recursos económicos, 2 No les interesa o no la necesitan, 3 No saben usarla, 4 Utilizan un celular inteligente (Smartphone) u otro dispositivo para conectarse a Internet, 5 Porqué está descompuesta, 6 Por razones relacionadas con la privacidad o seguridad, 7 Otra razón, 8 No responde"
+15,P4_3A,"4.3 ¿Por qué no disponen de computadora, laptop o Tablet? 
+ Otra razón Especifique",Varchar2,100,"[0-9, A-Z]",
+16,P4_4,4.4 ¿Disponen de conexión a internet en el hogar?,Varchar2,1,[1-2],"1 Sí, 2 No"
+30,P4_8,4.8 ¿Por qué no disponen de internet en el hogar?,Varchar2,2,[1-10],"1 Falta de recursos económicos (servicio incosteable), 2 No les interesa o no lo necesitan, 3 No sabe usarlo, 4 Desconoce su utilidad, 5 Equipo insuficiente o sin capacidad, 6 No hay proveedor o infraestructura en su localidad, 7 Tienen acceso a Internet en otros lugares, 8 Por razones relacionadas con la privacidad o seguridad, 9 Otra razón, 10 No responde"
+50,P5_8_2,"5.8 En el último mes, ¿cuál es el monto del pago realizado por el servicio de … 
+TV de paga, Telefonía fija e Internet?",Number,4,"[1-9998, 0, 9999]","0 No paga, 9999 No sabe"
+74,P5_11_1,"5.11 ¿Se encuentra satisfecho(a) o insatisfecho(a) con el servicio de…
+Internet?.",Varchar2,1,"[1-3, 8]","1 Satisfecho, 2 Insatisfecho, 3 No cuenta con el servicio, 8 No quiso o no supo responder"

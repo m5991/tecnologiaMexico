@@ -1,0 +1,22 @@
+﻿,COLUMNA,DESCRIPCION,TIPO_DATO,LONGITUD,CODIGO_VALIDO,METADATOS
+0,UPM,Unidad primaria de muestreo,Varchar2,7,[0100023-3260794],Unidad primaria de muestreo
+4,PAREN,3.3 ¿Qué es (NOMBRE) del jefe(a) del hogar?,Varchar2,1,[1-6],"1 Jefe(a), 2 Esposo(a) o compañero(a), 3 Hijo(a), 4 Nieto(a), 5 Otro parentesco, 6 Sin parentesco"
+5,SEXO,3.4 (NOMBRE) es hombre (NOMBRE) es mujer,Varchar2,1,[1-2],"1 Hombre, 2 Mujer"
+6,EDAD,3.5 ¿Cuántos años cumplidos tiene (NOMBRE)?,Number,2,[00-99],
+9,P3_7,3.7 ¿(NOMBRE) asiste actualmente a la escuela?,Varchar2,1,[1-2],"1 Sí, 2 No"
+10,NIVEL,"3.8 ¿Hasta qué año o grado aprobó (NOMBRE) en la escuela? 
+Nivel",Varchar2,2,"[00-11],99","00 Ninguno, 01 Preescolar o kínder, 02 Primaria, 03 Secundaria, 04 Normal básica, 05 Estudio técnico terminal con secundaria, 06 Preparatoria o bachillerato, 08 Licenciatura o ingeniería, 09 Especialidad,  10 Maestría, 11 Doctorado, 99 No sabe"
+11,GRADO,"3.8 ¿Hasta qué año o grado aprobó (NOMBRE) en la escuela? 
+Grado",Varchar2,1,[0-9],
+12,P3_9_1,"3.9 En los últimos tres meses, ¿(NOMBRE) ha hecho uso de…
+ computadora, laptop o tablet?",Varchar2,1,"[1-2],9","1 Sí, 2 No, 9 No sabe"
+13,P3_9_2,"3.9 En los últimos tres meses, ¿(NOMBRE) ha hecho uso de…
+ internet?",Varchar2,1,"[1-2],9","1 Sí, 2 No, 9 No sabe"
+14,P3_9_3,"3.9 En los últimos tres meses, ¿(NOMBRE) ha hecho uso de…
+ celular?",Varchar2,1,"[1-2],9","1 Sí, 2 No, 9 No sabe"
+19,UPM_DIS,Unidad primaria de muestreo,Varchar2,5,[00001-08235],Unidad primaria de muestreo
+20,EST_DIS,Estrato de diseño muestral,Varchar2,3,[001-340],Estrato de diseño muestral
+21,DOMINIO,Población rural y urbana,Varchar2,1,"[U,R]",Población rural y urbana
+22,TLOC,Tamaño de la Localidad,Varchar2,1,[1-4],"1 100,000 y más habitantes, 2 15,000 a 99,999 habitantes, 3 2,500 a 14,999 habitantes, 4 menor a 2500 habitantes"
+23,ESTRATO,Estrato socioeconómico,Varchar2,1,[1-4],"1 Bajo, 2 Medio bajo, 3 Medio alto, 4 Alto"
+24,ENT,Entidad ,Varchar2,2,[01-32],"01 Aguascalientes, 02 Baja California, 03 Baja California Sur, 04 Campeche, 05 Coahuila de Zaragoza, 06 Colimia, 07 Chiapas, 08 Chihuahua, 09 Ciudad de México, 10 Durango, 11 Guanajuato, 12 Guerrero, 13 Hidalgo, 14 Jalisco, 15 Estado de México, 16 Michoacán de Ocampo, 17 Morelos, 18 Nayarit, 19 Nuevo León, 20 Oaxaca, 21 Puebla, 22 Querétaro, 23 Quintana Roo, 24 San Luis Potosí, 25 Sinaloa, 26 Sonora, 27 Tabasco, 28 Tamaulipas, 29 Tlaxcala, 30 Veracruz de Ingancio de la Llave, 31 Yucatán, 32 Zacatecas"

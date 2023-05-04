@@ -1,0 +1,13 @@
+﻿,COLUMNA,DESCRIPCION,TIPO_DATO,LONGITUD,CODIGO_VALIDO,METADATOS
+0,UPM,Unidad primaria de muestreo,Varchar2,7,[0100023-3260794],Unidad primaria de muestreo
+1,VIV_SEL,Vivienda seleccionada,Varchar2,2,[01-42],Vivienda seleccionada 
+2,P1_1,1.1 ¿De qué material es la mayor parte del piso de esta vivienda?,Varchar2,1,[1-3],"1 Tierra, 2 Cemento o firme, 3 Madera, mosaico u otro recubrimiento"
+3,P1_2,1.2 ¿En esta vivienda tienen…,Varchar2,1,[1-6],"1 agua entubada dentro de la vivienda?, 2 agua entubada fuera de la vivienda, pero dentro del terreno?, 3 agua entubada de llave pública (o hidrante)?, 4  agua entubada que acarrean de otra vivienda?, 5 agua de pipa?, 6 agua de un pozo, río, arroyo, lago u otro?"
+4,P1_3,1.3 ¿En esta vivienda tienen drenaje o desagüe conectado a…,Varchar2,1,[1-5],"1 la red pública?, 2 una fosa séptica?, 3 una tubería que va a dar a una barranca o grieta?, 4 una tubería que va a dar a un río, lago o mar?, 5 ¿No tiene drenaje?"
+5,P1_4,1.4 ¿Disponen de energía eléctrica?,Varchar2,1,[1-2],"1 Sí, 2 No"
+6,P1_5_1,1.5 ¿En esta vivienda disponen de refrigerador?,Varchar2,1,[1-2],"1 Sí, 2 No"
+7,P1_5_2,1.5 ¿En esta vivienda disponen de lavadora?,Varchar2,1,[1-2],"1 Sí, 2 No"
+8,P1_5_3,1.5 ¿En esta vivienda disponen de automóvil o camioneta?,Varchar2,1,[1-2],"1 Sí, 2 No"
+9,P2_1,2.1 ¿Cuántas personas viven normalmente en está vivienda contando a los niños chiquitos y a los ancianos? (Incluya también a los trabajadores domésticos  que viven aquí),Number,2,[01-20],Total de personas en la vivienda 
+10,P2_2,2.2 ¿Todas las personas que viven en esta vivienda comparten un mismo gasto para comer?,Varchar2,1,[1-2],"1 Sí, 2 No"
+11,P2_3,"2.3 Entonces, ¿cuántos hogares o grupos de personas tienen gasto separado para comer contando el de usted?",Number,2,[2-5],Número de hogares en la vivienda
