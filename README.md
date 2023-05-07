@@ -76,8 +76,8 @@ Los resultados de esta exploración y entrenamiento se pueden ver leer con mayor
 
 Estos fueron ejecutados en los siguientes notebooks [Limpieza de datos](https://github.com/m5991/tecnologiaMexico/blob/main/src/01%20%20Limpieza%20de%20datos.ipynb):
 
-1. [Limpieza de datos](src/01  Limpieza de datos.ipynb)
-2 [Análisis de resultados](src/02 Analisis Resultados.ipynb)
+1. [Limpieza de datos](src/01%20%20Limpieza%20de%20datos.ipynb)
+2 [Análisis de resultados](src/02%20Analisis%20Resultados.ipynb)
 3. [Árbol de decisión para el nivel educativo del jefe de vivienda](src/03 Arbol de Decision - Jefe de Familia.ipynb)
 4. [Árbol de decisión para el nivel educativo de la persona con máximo nivel de extudios en la vivienda](src/04 Arbol de Decision - Nivel Maximo Estudios.ipynb)
 
