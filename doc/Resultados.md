@@ -34,7 +34,9 @@ A continuación se presentan los datos de la vivienda. Aquí se presentan distin
 
 La cantidad de registros en estas tablas se encuentra organizada por entidad federativa de la República Mexicana y se puede apreciar en el siguiente mapa.
 
-| ![](../results/mapa_total.png) ||:--:|| <b>IMapa de cantidad de personas en el registro por entidad federativa</b>|
+| ![](../results/mapa_total.png) |
+|:--:|
+| <b>Mapa de cantidad de personas en el registro por entidad federativa</b>|
 
 De igual manera se pueden representar cuales de estos registros son hombres y mujeres en el mapa. Pueden observarse algunas diferencias en los mapas como entre el noroeste y noreste del pais que parecen invertirse. Lo anterior puede representar un posible sesgo en la recolección de los datos.
 
