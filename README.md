@@ -95,7 +95,7 @@ Al mismo tiempo se explora al jefe de familia por sexo, edad, nivel educativo, u
 
 ## Modelo de clasificación por árboles de decisión
 
-Se realiza el entranmiento en dos conjuntos distintos, uno corresponte al nivel eductativo del jefe de la vivienda y el otro al máximo nivel eductativo de la vivienda.
+Se realiza el entrenamiento en dos conjuntos distintos, uno corresponte al nivel eductativo del jefe de la vivienda y el otro al máximo nivel eductativo logrado por alguno de los habitantes de la vivienda.
 
 En esta primer entrenamiento puede observarse que el Uso de la computadora en los últimos 3 meses (P_3_9_1) es el nodo principal de la clasifiación, seguido del uso del internet en los últimos 3 meses. 
 
@@ -109,7 +109,7 @@ En esta clasificación se obtienen resultados parecidos (1ro y 2do nodo).
 |:--:|
 | <b>Arbol de decisión para clasificar el nivel educativo (restructurado) para la persona con máximo nivel de estudios en la vivienda</b>|
 
-Con estos árboles podemos hablar que el uso de la computadora y el internet si ayuda a predecir el nivel educativo de las personas en la vivienda (jefe y máximo nivel de estudios).
+Con estos árboles podemos hablar que el uso de la computadora y el internet si ayuda a predecir el nivel educativo de las personas en la vivienda (jefe y máximo nivel de estudios). 
 
 # Difusión
 
