@@ -83,7 +83,7 @@ Al mismo tiempo se explora al jefe de familia por sexo, edad, nivel educativo, u
 
 ![](https://github.com/m5991/tecnologiaMexico/blob/c31f9be166ab8865e98154282ba9339a35125717/results/edad_nivel_jal.png)
 
-Los Resultados de esta exploración se pueden ver completos en la carpeta [Results](https://github.com/m5991/tecnologiaMexico/blob/37edc85fd3126cad17a8ceb4d3c23202451e1705/results/README.md)
+Los sesultados de esta exploración se pueden ver leer con mayor detalle en la siguiente [sección](doc/Resultaods.md):
 
 
 # Modelo de clasificación árboles de decisión
