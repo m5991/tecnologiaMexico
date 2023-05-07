@@ -122,7 +122,7 @@ Posteriormente se eliminan  atributos que no se identifican como determinantes. 
 Despues de crear el modelo, obtenemos las siguientes observaciones 
 1. El atributo con mayor peso en el nivel de estudios es el Uso de computadora - estan muy relacionados.
 2. Despues el uso de internet.
-3. En el siguiente nivel es cuantas personas viven en la casa.
+3. En el siguiente nivel es la edad del jefe de la vivienda.
 
 Con este mocelo se consigue un error (rmse) de test es de 1.039. Esto implica que utilizando este arbol podemos estar aproximadamente 1 nivel seguros de nuestra predicción. Si predecimos nivel secundaria, puede que el resultado real esté entre primaria y preparatoria.
 
@@ -134,10 +134,34 @@ Nuevamente se revisa primeramente la distribución de los registros. Graficamos 
 |:--:|
 | <b>Distribución de nivel de registros según el nivel educativo (restructurado) para la persona con mayor nivel educativo en la vivienda</b>|
 
+Se ejecuta un proceso de limpieza similar que en la sección anterior y se encuentran resultados similares pero con una matiz distinta.
+
+| ![](../results/arbol_decision_nivel_max_estudios.png) |
+|:--:|
+| <b>Arbol de decisión para clasificar el nivel educativo (restructurado) para la persona con máximo nivel de estudios en la vivienda</b>|
+
+Despues de crear el modelo, obtenemos las siguientes observaciones 
+1. El atributo con mayor peso en el nivel de estudios sigue siendo el Uso de computadora en los últimos 3 meses.
+2. Despues ha hecho uso de Internet en los últimos 3 meses.
+3. Por último siposee una laptop (computadora personal).
+
+Con este modelo se consigue un error (rmse) de test es de 0.88. Esto implica que utilizando este arbol podemos estar aproximadamente 1 nivel seguros de nuestra predicción. Es importante mencionar que este modelo es ligeramente mejor que el anterior.
+
 ## Discusión
+
+Con esta información podemos observar que el uso de tecnologias de informacion (computadora, internet, celular) esta directamente relacionado con el nivel de estudios. Cuando hacemos una predicción del nivel de estudios, el primer parametro a considerar es si el individuo hace uso de la computadora y sí hace uso de internet.
+
+Es importante resaltar que aunque nuestro objetivo era prececir con base en los datos de la vivienda, estos terminan siendo no tan relevantes para la predicción.
+
+En cuanto a la diferencia entre los conjuntos de datos de Nivel máximo de estudios en la vivienda y Nivel de estudios en el jefe de la vivienda, podemos obtener observaciones interesantes. Si el individuo posee una laptop ayudará a clasificar si el nivel máximo de estudios es primaria o secundaria, sabiendo que no usa internet o computadora recientemente. Un efecto parecido ocurre con la edad del jefe de la vivienda en la primera clasificación, el efecto es claro, no uso de la computadora e internet y una edad avanzada esta relacionado a bajo nivel educativo (primaria).
 
 ## Conclusión
 
-Con esta información podemos concluir que el uso de tecnologias de informacion (computadora, internet, celular),
-# esta directamente relacionado con el nivel de estudios. Cuando hacemos una predicción del nivel de estudios,
-# el primer parametro a considerar es si los hogares cuentan con servicios de comunicacion (internet sobre todo)
+La tabla presentada contiene información sumamente importante sobre como se encuentra atualmente el uso de las tecnologías de información en México. Uno de los datos más importantes es el nivel educativo de la persona encuestada, el cual se encuentra representado por la columna "NIVEL" y es el objetivo de este estudio.
+
+Existen datos que pueden ser relevantes para futuros análisis, pero en este estudio se centran principalmente en el nivel educativo de la persona encuestada.
+
+Se podría considerar la inclusión de más detalles sobre la encuesta en sí, como el tamaño de la muestra, la población objetivo, y la metodología utilizada para obtener los datos. Estos detalles podrían proporcionar una mejor comprensión del contexto en el que se realizaron los análisis.
+
+A manera de cierre, el uso de tecnologías de información como la computadora e internet, se encuentra estrechamente relacionado con el nivel de estudios de las personas. Es importante tener en cuenta este factor al hacer predicciones sobre el nivel educativo de un individuo. Por lo tanto, el acceso y la capacitación en el uso de estas herramientas se convierten en aspectos clave para mejorar las oportunidades educativas y laborales de las personas, especialmente en la actualidad donde la tecnología juega un papel fundamental en diversos aspectos de la vida.
+
