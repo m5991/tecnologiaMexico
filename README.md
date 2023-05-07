@@ -88,6 +88,10 @@ Los Resultados de esta exploración se pueden ver completos en la carpeta [Resul
 
 # Modelo de clasificación árboles de decisión
 
-W
+![](https://github.com/m5991/tecnologiaMexico/blob/main/results/arbol_decision_jefe_familia.png)
+
+![](https://github.com/m5991/tecnologiaMexico/blob/main/results/arbol_decision_nivel_max_estudios.png)
+
+
 
 # Referencias
