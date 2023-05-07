@@ -87,6 +87,57 @@ Por último se revisa el uso del internet en los últimos 3 meses. Puede observa
 |:--:|
 | <b>Número de registros de jefes de vivivenda por uso del internet en los últimos 3 meses y edad en el estado de Jalisco</b>|
 
-## Modelo de clasificación árboles de decisión
+## Modelo de clasificación por árboles de decisión
 
-Conociendo la naturaleleza de los datos
+Conociendo la naturaleleza de los datos, se decidió preguntarse si es que el nivel educativo puede clasificarse según aspectos de la vivienda (cantidad de tecnología) e indicadores socioeconomicos presentados en el dataset. Para esto se preprocesan los datos.
+
+El nivel de estudios se estandariza de acuerdo las notas del inicio (0: Nada, 1:Kinder, etc). Esto permite una interpración más clara de la información y que al momento de crear los predictores la secuencia sea lineal ascendente.
+
+La encuesta en la que se basa este dataset tiene la peculiaridad de que utilizan el valor 2 como "no", así que lo cambiamos por 0 para que la interpretación sea mas logica con 0 = No y 1 = Si.
+
+Posteriormente se divide el estudio en 2 aspectos de interés: el jefe de cada vivienda y el nivél máximo de estudios de alguno de los integrantes de la vivienda. Esto era un aspecto interesante porque se sabe que no necesariamente el jefe de la viivenda será la persona que más haya estudiado.
+
+### Jefe de familia
+
+Antes de entrenar el modelo graficamos el nivel educativo donde podemos ver la distribución de los niveles. La mayor cantidad de personas donde la primaria y secundaria son las que tienen mayor cantidad de registros.
+
+| ![](../results/distribucionniveljefes.png) |
+|:--:|
+| <b>Distribución de nivel de registros según el nivel educativo (restructurado) para el jefe de vivienda en México</b>|
+
+#### Entrenamiento
+
+Con el dataset limpio y organizado podemos hacer el modelo. Dividimos el dataset en sets de entrenamiento y de pruebas, donde el objetivo es el Atributo Nivel.
+
+Se entrena el modelo de manera prelimintar se encuentran los siguientes aspectos.
+1. El uso de equipo de computo es el primer determinante (nodo).
+2. El Grado (educativo) se superpone al de Nivel así que se elimina del modelo.
+
+Posteriormente se eliminan  atributos que no se identifican como determinantes. A continuación se presenta la versión final y recortada del arbol de decisión.
+
+| ![](../results/arbol_decision_jefe_familia.png) |
+|:--:|
+| <b>Arbol de decisión para clasificar el nivel educativo (restructurado) para el jefe de vivienda en México</b>|
+
+Despues de crear el modelo, obtenemos las siguientes observaciones 
+1. El atributo con mayor peso en el nivel de estudios es el Uso de computadora - estan muy relacionados.
+2. Despues el uso de internet.
+3. En el siguiente nivel es cuantas personas viven en la casa.
+
+Con este mocelo se consigue un error (rmse) de test es de 1.039. Esto implica que utilizando este arbol podemos estar aproximadamente 1 nivel seguros de nuestra predicción. Si predecimos nivel secundaria, puede que el resultado real esté entre primaria y preparatoria.
+
+### Nivel máximo de estudios
+
+Nuevamente se revisa primeramente la distribución de los registros. Graficamos el nivel educativo donde podemos ver la distribución de los niveles. La mayor cantidad de personas donde la licenciatura es la que tiene mayor cantidad de registros. Esto contrasta con lo visto en la sección anterior, podemos ver como la naturaleza de estos conjuntos es distinta.
+
+| ![](../results/distribucionnivelmaximo.png) |
+|:--:|
+| <b>Distribución de nivel de registros según el nivel educativo (restructurado) para la persona con mayor nivel educativo en la vivienda</b>|
+
+## Discusión
+
+## Conclusión
+
+Con esta información podemos concluir que el uso de tecnologias de informacion (computadora, internet, celular),
+# esta directamente relacionado con el nivel de estudios. Cuando hacemos una predicción del nivel de estudios,
+# el primer parametro a considerar es si los hogares cuentan con servicios de comunicacion (internet sobre todo)
