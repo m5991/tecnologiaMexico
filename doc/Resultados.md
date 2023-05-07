@@ -32,6 +32,14 @@ A continuación se presentan los datos de la vivienda. Aquí se presentan distin
 | 100029 |         5 |      3 |      1 |      1 |      1 |        1 |        1 |        1 |      3 |      1 |    nan |       222 |         2 |         6 | U         |      1 |         2 |     1 |
 | 100037 |         1 |      3 |      1 |      1 |      1 |        1 |        1 |        2 |      6 |      1 |    nan |       169 |         3 |         7 | U         |      1 |         3 |     1 |
 
+La cantidad de registros en estas tablas se encuentra organizada por entidad federativa de la República Mexicana y se puede apreciar en el siguiente mapa.
+
+!["Mapa de cantidad de personas en el registro por entidad federativa"](../results/mapa_total.png)
+
+De igual manera se pueden representar cuales de estos registros son hombres y mujeres en el mapa. Pueden observarse algunas diferencias en los mapas como entre el noroeste y noreste del pais que parecen invertirse. Lo anterior puede representar un posible sesgo en la recolección de los datos.
+
+!["Mapa de cantidad de Mujeres en el registro por entidad federativa"](../results/mapa_mujeres.png)
+!["Mapa de cantidad de Hombres en el registro por entidad federativa"](../results/mapa_hombres.png)
 
 !["Hola"](../results/edad_internet_jal.png)
 
