@@ -73,7 +73,7 @@ En la siguiente tabla residentes contienen preguntas del tipo académico, tanto 
 
 # Análisis Exploratorio de Datos (EDA)
 
-EDA aquí
+![](https://github.com/m5991/tecnologiaMexico/blob/b16d4c996fd2c66730e70b6a99c0e195db625f92/results/mapa_total.png)
 
 
 # Modelo de clasificación árboles de decisión
