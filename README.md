@@ -74,12 +74,12 @@ En la siguiente tabla residentes contienen preguntas del tipo académico, tanto 
 
 Los resultados de esta exploración y entrenamiento se pueden ver leer con mayor detalle en el siguiente [documento](doc/Resultados.md).
 
-Estos fueron ejecutados en los siguientes notebooks:
+Estos fueron ejecutados en los siguientes notebooks [Limpieza de datos](src/01  Limpieza de datos.ipynb):
 
-1. [Limpieza de datos]("src/01  Limpieza de datos.ipynb").
-2. [Análisis de resultados](src/02 Analisis Resultados.ipynb).
-3. [Árbol de decisión para el nivel educativo del jefe de vivienda](src/03 Arbol de Decision - Jefe de Familia.ipynb).
-3. [Árbol de decisión para el nivel educativo de la persona con máximo nivel de extudios en la vivienda](src/04 Arbol de Decision - Nivel Maximo Estudios.ipynb).
+1. [Limpieza de datos](src/01  Limpieza de datos.ipynb)
+2 [Análisis de resultados](src/02 Analisis Resultados.ipynb)
+3. [Árbol de decisión para el nivel educativo del jefe de vivienda](src/03 Arbol de Decision - Jefe de Familia.ipynb)
+4. [Árbol de decisión para el nivel educativo de la persona con máximo nivel de extudios en la vivienda](src/04 Arbol de Decision - Nivel Maximo Estudios.ipynb)
 
 ## Análisis Exploratorio de Datos (EDA)
 
