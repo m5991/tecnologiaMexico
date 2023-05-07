@@ -34,7 +34,7 @@ A continuación se presentan los datos de la vivienda. Aquí se presentan distin
 
 La cantidad de registros en estas tablas se encuentra organizada por entidad federativa de la República Mexicana y se puede apreciar en el siguiente mapa.
 
-!["Mapa de cantidad de personas en el registro por entidad federativa"](../results/mapa_total.png)
+![Mapa de cantidad de personas en el registro por entidad federativa](../results/mapa_total.png)
 
 De igual manera se pueden representar cuales de estos registros son hombres y mujeres en el mapa. Pueden observarse algunas diferencias en los mapas como entre el noroeste y noreste del pais que parecen invertirse. Lo anterior puede representar un posible sesgo en la recolección de los datos.
 
@@ -54,6 +54,8 @@ Ahora comparamos el nivel educativo según la edad de cada registro. En el sigui
 En esta sección se repiten algunos de los análsis, pero nos enfocamos en los registros del estado de Jalisco. Se puede observar como el efecto es ligeramente más pronunciado que en el caso de los datos nacionales, conforme se incrementa el nivel educativo son menos mujeres las que son jefes de vvivienda.
 
 !["Número de registros de jefes de vivivenda por nivel educativo y sexo en el estado de Jalisco"](../results/nivel_sexo_jal.png)
+
+En la siguiente parte se revisa nuevamente el nivel educativo por edad. Puede observarse como
 
 
 
