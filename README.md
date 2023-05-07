@@ -78,7 +78,7 @@ Los resultados de esta exploración y entrenamiento se pueden ver leer con mayor
 
 En este apartado se muestra la exploración de los datos después de la limpieza y organización en función del problema. Comenzamos por saber el muestreo que realizó INEGI, en promedio por estado son 1800 registros tomando como base el jefe de familia (provedor) como se puede observar en la siguiente imagen:
 
-| ![](../results/mapa_total.png) |
+| ![](results/mapa_total.png) |
 |:--:|
 | <b>Mapa de cantidad de personas en el registro por entidad federativa</b>|
 
@@ -86,7 +86,7 @@ De lo anterior nos damos cuenta de la proporción de hombres y mujeres como jefa
 
 Al mismo tiempo se explora al jefe de familia por sexo, edad, nivel educativo, uso de la computadora y el uso del internet en un tiempo no mayor a 3 meses. Posterior a esto, se aplica un filtro para el estado de Jalisco para entender si el comportamiento es similar a lo que se observa con la muestra completa de los datos. El estado de Jalisco tiene un comportamiento promedio respecto a la muestra, la edad en función del nivel académico nos arroja que a mayor edad el nivel educativo se queda en primaria y secundaria, si la edad es de 20 años hasta los 50 años existe una mayor población con preparatoria y licenciatura con una minoría en educación especializada. En el rango 10 a 20 años no existe como tal un nivel educativo debido que son los años de conclusión de los estudios de primaria, secundaria, bachillerato y licenciatura como se muestra en la siguiente imágen:
 
-| ![](../results/edad_nivel_jal.png) |
+| ![](results/edad_nivel_jal.png) |
 |:--:|
 | <b>Número de registros de jefes de vivivenda por nivel educativo y edad en el estado de Jalisco</b>|
 
@@ -99,13 +99,13 @@ Se realiza el entranmiento en dos conjuntos distintos, uno corresponte al nivel 
 
 En esta primer entrenamiento puede observarse que el Uso de la computadora en los últimos 3 meses (P_3_9_1) es el nodo principal de la clasifiación, seguido del uso del internet en los últimos 3 meses. 
 
-| ![](../results/arbol_decision_jefe_familia.png) |
+| ![](results/arbol_decision_jefe_familia.png) |
 |:--:|
 | <b>Arbol de decisión para clasificar el nivel educativo (restructurado) para el jefe de vivienda en México</b>|
 
 En esta clasificación se obtienen resultados parecidos (1ro y 2do nodo).
 
-| ![](../results/arbol_decision_nivel_max_estudios.png) |
+| ![](results/arbol_decision_nivel_max_estudios.png) |
 |:--:|
 | <b>Arbol de decisión para clasificar el nivel educativo (restructurado) para la persona con máximo nivel de estudios en la vivienda</b>|
 
