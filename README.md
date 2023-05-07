@@ -74,7 +74,7 @@ En la siguiente tabla residentes contienen preguntas del tipo académico, tanto 
 
 Los resultados de esta exploración y entrenamiento se pueden ver leer con mayor detalle en el siguiente [documento](doc/Resultados.md).
 
-Estos fueron ejecutados en los siguientes notebooks [Limpieza de datos](src/01  Limpieza de datos.ipynb):
+Estos fueron ejecutados en los siguientes notebooks [Limpieza de datos](https://github.com/m5991/tecnologiaMexico/blob/main/src/01%20%20Limpieza%20de%20datos.ipynb):
 
 1. [Limpieza de datos](src/01  Limpieza de datos.ipynb)
 2 [Análisis de resultados](src/02 Analisis Resultados.ipynb)
