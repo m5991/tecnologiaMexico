@@ -79,7 +79,7 @@ Estos fueron ejecutados en los siguientes notebooks:
 1. [Limpieza de datos](src/01%20%20Limpieza%20de%20datos.ipynb)
 2. [Análisis de resultados](src/02%20Analisis%20Resultados.ipynb)
 3. [Árbol de decisión para el nivel educativo del jefe de vivienda](src/03%20Arbol%20de%20Decision%20-%20efe%20de%20Familia.ipynb)
-4. [Árbol de decisión para el nivel educativo de la persona con máximo nivel de extudios en la vivienda](src/04%20Arbol%20de%20Decision%20-%20Nivel%20Maximo Estudios.ipynb)
+4. [Árbol de decisión para el nivel educativo de la persona con máximo nivel de extudios en la vivienda](src/04%20Arbol%20de%20Decision%20-%20Nivel%20Maximo%20Estudios.ipynb)
 
 ## Análisis Exploratorio de Datos (EDA)
 
