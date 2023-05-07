@@ -73,7 +73,17 @@ En la siguiente tabla residentes contienen preguntas del tipo académico, tanto 
 
 # Análisis Exploratorio de Datos (EDA)
 
+En este apartado se muestra la exploración de los datos después de la limpieza y organización en función del problema. Comenzamos por saber el muestreo que realizó INEGI, en promedio por estado son 1800 registros tomando como base el jefe de familia (provedor) como se puede observar en la siguiente imagen:
+
 ![](https://github.com/m5991/tecnologiaMexico/blob/b16d4c996fd2c66730e70b6a99c0e195db625f92/results/mapa_total.png)
+
+De lo anterior nos damos cuenta de la proporción de hombres y mujeres como jefa de familia, el nivel educativo en función de la edad, el uso de la tecnología, etc., se generan preguntas que se abordarán en las discusiones más adelante como ¿Mantiene a la familia o es madre soltera?, ¿las generaciones de 60 años o más se les dificulta el uso de la tecnología?, invariablemente todos usan el internet de manera primaria, secundaria o terciaria ¿El uso del internet se ha vuelto una necesidad en todos los estratos sociales?, entre otras más situaciones.
+
+Al mismo tiempo se explora al jefe de familia por sexo, edad, nivel educativo, uso de la computadora y el uso del internet en un tiempo no mayor a 3 meses. Posterior a esto, se aplica un filtro para el estado de Jalisco para entender si el comportamiento es similar a lo que se observa con la muestra completa de los datos. El estado de Jalisco tiene un comportamiento promedio respecto a la muestra, la edad en función del nivel académico nos arroja que a mayor edad el nivel educativo se queda en primaria y secundaria, si la edad es de 20 años hasta los 50 años existe una mayor población con preparatoria y licenciatura con una minoría en educación especializada. En el rango 10 a 20 años no existe como tal un nivel educativo debido que son los años de conclusión de los estudios de primaria, secundaria, bachillerato y licenciatura como se muestra en la siguiente imgágen:
+
+![](https://github.com/m5991/tecnologiaMexico/blob/c31f9be166ab8865e98154282ba9339a35125717/results/edad_nivel_jal.png)
+
+Los Resultados de esta exploración se pueden ver completos en la carpeta [Results](https://github.com/m5991/tecnologiaMexico/tree/main/results)
 
 
 # Modelo de clasificación árboles de decisión
