@@ -114,10 +114,10 @@ Con estos árboles podemos hablar que el uso de la computadora y el internet si 
 
 # Referencias
 
-- https://www.cienciadedatos.net/documentos/py07_arboles_decision_python.html
+- Amat Rodrigo, J. (s. f.). Arboles de decision python. Cienciadedatos.net. https://www.cienciadedatos.net/documentos/py07_arboles_decision_python.html
 
-- https://scikit-learn.org/
+- scikit-learn: machine learning in Python — scikit-learn 0.16.1 documentation. (s. f.-b). https://scikit-learn.org/
 
-- https://pandas.pydata.org/
+- pandas - Python Data Analysis Library. (s. f.). https://pandas.pydata.org/
 
-- https://www.inegi.org.mx/programas/dutih/2021/
+- INEGI. Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH) 2021. https://www.inegi.org.mx/programas/dutih/2021/
