@@ -72,7 +72,7 @@ En la siguiente tabla residentes contienen preguntas del tipo académico, tanto 
 
 # Resultados
 
-Los resultados de esta exploración y entrenamiento se pueden ver leer con mayor detalle en la siguiente [sección](doc/Resultados.md):
+Los resultados de esta exploración y entrenamiento se pueden ver leer con mayor detalle en el siguiente [documento](doc/Resultados.md).
 
 ## Análisis Exploratorio de Datos (EDA)
 
