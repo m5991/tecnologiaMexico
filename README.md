@@ -70,8 +70,11 @@ En la siguiente tabla residentes contienen preguntas del tipo académico, tanto 
 ![image-5.png](attachment:image-5.png)</li>
 </ol>
 
+# Resultados
 
-# Análisis Exploratorio de Datos (EDA)
+Los resultados de esta exploración y entrenamiento se pueden ver leer con mayor detalle en la siguiente [sección](doc/Resultados.md):
+
+## Análisis Exploratorio de Datos (EDA)
 
 En este apartado se muestra la exploración de los datos después de la limpieza y organización en función del problema. Comenzamos por saber el muestreo que realizó INEGI, en promedio por estado son 1800 registros tomando como base el jefe de familia (provedor) como se puede observar en la siguiente imagen:
 
@@ -83,10 +86,9 @@ Al mismo tiempo se explora al jefe de familia por sexo, edad, nivel educativo, u
 
 ![](https://github.com/m5991/tecnologiaMexico/blob/c31f9be166ab8865e98154282ba9339a35125717/results/edad_nivel_jal.png)
 
-Los resultados de esta exploración se pueden ver leer con mayor detalle en la siguiente [sección](doc/Resultados.md):
 
 
-# Modelo de clasificación árboles de decisión
+## Modelo de clasificación por árboles de decisión
 
 ![](https://github.com/m5991/tecnologiaMexico/blob/main/results/arbol_decision_jefe_familia.png)
 
@@ -95,3 +97,11 @@ Los resultados de esta exploración se pueden ver leer con mayor detalle en la s
 
 
 # Referencias
+
+- https://www.cienciadedatos.net/documentos/py07_arboles_decision_python.html
+
+- https://scikit-learn.org/
+
+- https://pandas.pydata.org/
+
+- https://www.inegi.org.mx/programas/dutih/2021/
