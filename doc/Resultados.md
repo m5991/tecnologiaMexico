@@ -55,7 +55,7 @@ Para nuestro estudio utilizamos el Jefe de cada vivienda para seguir con el aná
 |:--:|
 | <b>Cantidad de registros de cada jefe de vivienda según nivel educativo y sexo</b>|
 
-Ahora comparamos el nivel educativo según la edad de cada registro. En el siguiente gráfico puede observarse como el nivel educativova disminuyendo según subimos en la edad de cada encuestado.
+Ahora comparamos el nivel educativo según la edad de cada registro. En el siguiente gráfico puede observarse como el nivel educativo disminuyendo según subimos en la edad de cada encuestado.
 
 | ![](../results/edad_nivel_total.png) |
 |:--:|
@@ -63,39 +63,39 @@ Ahora comparamos el nivel educativo según la edad de cada registro. En el sigui
 
 ### Jalisco
 
-En esta sección se repiten algunos de los análsis, pero nos enfocamos en los registros del estado de Jalisco. Se puede observar como el efecto es ligeramente más pronunciado que en el caso de los datos nacionales, conforme se incrementa el nivel educativo son menos mujeres las que son jefes de vvivienda.
+En esta sección se repiten algunos de los análisis, pero nos enfocamos en los registros del estado de Jalisco. Se puede observar como el efecto es ligeramente más pronunciado que en el caso de los datos nacionales, conforme se incrementa el nivel educativo son menos mujeres las que son jefes de vivienda.
 
 | ![](../results/nivel_sexo_jal.png) |
 |:--:|
-| <b>Número de registros de jefes de vivivenda por nivel educativo y sexo en el estado de Jalisco</b>|
+| <b>Número de registros de jefes de vivienda por nivel educativo y sexo en el estado de Jalisco</b>|
 
 En la siguiente parte se revisa nuevamente el nivel educativo por edad. Puede observarse como el patrón nacional se repite, conforme sube la edad, el nivel educativo va disminuyendo.
 
 | ![](../results/edad_nivel_jal.png) |
 |:--:|
-| <b>Número de registros de jefes de vivivenda por nivel educativo y edad en el estado de Jalisco</b>|
+| <b>Número de registros de jefes de vivienda por nivel educativo y edad en el estado de Jalisco</b>|
 
-Ahora revisamos el uso de la computadora o pc por edad. Puede observars como también este valor va disminuyendo con la edad, siendo el máximo entre los 30 y 50 años. Lo anterior tiene sentido ya que se trata en las edades donde existen más trabajadores. Es importante mencionar que el uso de la pc en los últimos 3 meses nunca es dominante en estos niveles de edad gráficados.
+Ahora revisamos el uso de la computadora o pc por edad. Puede observarse como también este valor va disminuyendo con la edad, siendo el máximo entre los 30 y 50 años. Lo anterior tiene sentido ya que se trata en las edades donde existen más trabajadores. Es importante mencionar que el uso de la pc en los últimos 3 meses nunca es dominante en estos niveles de edad graficados.
 
 | ![](../results/edad_pc_jal.png) |
 |:--:|
-| <b>Número de registros de jefes de vivivenda por uso de la computadora en los últimos 3 meses y edad en el estado de Jalisco</b>|
+| <b>Número de registros de jefes de vivienda por uso de la computadora en los últimos 3 meses y edad en el estado de Jalisco</b>|
 
 Por último se revisa el uso del internet en los últimos 3 meses. Puede observarse como a diferencia del gráfico anterior este si es dominante en la población por edad en general. Nuevamente se observa como disminuye conforme incrementa la edad.
 
 | ![](../results/edad_internet_jal.png) |
 |:--:|
-| <b>Número de registros de jefes de vivivenda por uso del internet en los últimos 3 meses y edad en el estado de Jalisco</b>|
+| <b>Número de registros de jefes de vivienda por uso del internet en los últimos 3 meses y edad en el estado de Jalisco</b>|
 
 ## Modelo de clasificación por árboles de decisión
 
-Conociendo la naturaleleza de los datos, se decidió preguntarse si es que el nivel educativo puede clasificarse según aspectos de la vivienda (cantidad de tecnología) e indicadores socioeconomicos presentados en el dataset. Para esto se preprocesan los datos.
+Conociendo la naturaleza de los datos, se decidió preguntarse si es que el nivel educativo puede clasificarse según aspectos de la vivienda (cantidad de tecnología) e indicadores socio-económicos presentados en el dataset. Para esto se pre-procesan los datos.
 
-El nivel de estudios se estandariza de acuerdo las notas del inicio (0: Nada, 1:Kinder, etc). Esto permite una interpración más clara de la información y que al momento de crear los predictores la secuencia sea lineal ascendente.
+El nivel de estudios se estandariza de acuerdo las notas del inicio (0: Nada, 1:Kinder, etc). Esto permite una interpretación más clara de la información y que al momento de crear los predictores la secuencia sea lineal ascendente.
 
-La encuesta en la que se basa este dataset tiene la peculiaridad de que utilizan el valor 2 como "no", así que lo cambiamos por 0 para que la interpretación sea mas logica con 0 = No y 1 = Si.
+La encuesta en la que se basa este dataset tiene la peculiaridad de que utilizan el valor 2 como "no", así que lo cambiamos por 0 para que la interpretación sea mas lógica con 0 = No y 1 = Si.
 
-Posteriormente se divide el estudio en 2 aspectos de interés: el jefe de cada vivienda y el nivél máximo de estudios de alguno de los integrantes de la vivienda. Esto era un aspecto interesante porque se sabe que no necesariamente el jefe de la viivenda será la persona que más haya estudiado.
+Posteriormente se divide el estudio en 2 aspectos de interés: el jefe de cada vivienda y el nivel máximo de estudios de alguno de los integrantes de la vivienda. Esto era un aspecto interesante porque se sabe que no necesariamente el jefe de la vivienda será la persona que más haya estudiado.
 
 ### Jefe de familia
 
@@ -103,28 +103,28 @@ Antes de entrenar el modelo graficamos el nivel educativo donde podemos ver la d
 
 | ![](../results/distribucionniveljefes.png) |
 |:--:|
-| <b>Distribución de nivel de registros según el nivel educativo (restructurado) para el jefe de vivienda en México</b>|
+| <b>Distribución de nivel de registros según el nivel educativo (reestructurado) para el jefe de vivienda en México</b>|
 
 #### Entrenamiento
 
 Con el dataset limpio y organizado podemos hacer el modelo. Dividimos el dataset en sets de entrenamiento y de pruebas, donde el objetivo es el Atributo Nivel.
 
-Se entrena el modelo de manera prelimintar se encuentran los siguientes aspectos.
+Se entrena el modelo de manera preliminar se encuentran los siguientes aspectos.
 1. El uso de equipo de computo es el primer determinante (nodo).
 2. El Grado (educativo) se superpone al de Nivel así que se elimina del modelo.
 
-Posteriormente se eliminan  atributos que no se identifican como determinantes. A continuación se presenta la versión final y recortada del arbol de decisión.
+Posteriormente se eliminan  atributos que no se identifican como determinantes. A continuación se presenta la versión final y recortada del árbol de decisión.
 
 | ![](../results/arbol_decision_jefe_familia.png) |
 |:--:|
-| <b>Arbol de decisión para clasificar el nivel educativo (restructurado) para el jefe de vivienda en México</b>|
+| <b>Árbol de decisión para clasificar el nivel educativo (reestructurado) para el jefe de vivienda en México</b>|
 
-Despues de crear el modelo, obtenemos las siguientes observaciones 
-1. El atributo con mayor peso en el nivel de estudios es el Uso de computadora - estan muy relacionados.
-2. Despues el uso de internet.
+Después de crear el modelo, obtenemos las siguientes observaciones 
+1. El atributo con mayor peso en el nivel de estudios es el Uso de computadora - están muy relacionados.
+2. Después el uso de internet.
 3. En el siguiente nivel es la edad del jefe de la vivienda.
 
-Con este mocelo se consigue un error (rmse) de test es de 1.039. Esto implica que utilizando este arbol podemos estar aproximadamente 1 nivel seguros de nuestra predicción. Si predecimos nivel secundaria, puede que el resultado real esté entre primaria y preparatoria.
+Con este modelo se consigue un error (rmse) de test es de 1.039. Esto implica que utilizando este árbol podemos estar aproximadamente 1 nivel seguros de nuestra predicción. Si predecimos nivel secundaria, puede que el resultado real esté entre primaria y preparatoria.
 
 ### Nivel máximo de estudios
 
@@ -132,32 +132,32 @@ Nuevamente se revisa primeramente la distribución de los registros. Graficamos 
 
 | ![](../results/distribucionnivelmaximo.png) |
 |:--:|
-| <b>Distribución de nivel de registros según el nivel educativo (restructurado) para la persona con mayor nivel educativo en la vivienda</b>|
+| <b>Distribución de nivel de registros según el nivel educativo (reestructurado) para la persona con mayor nivel educativo en la vivienda</b>|
 
 Se ejecuta un proceso de limpieza similar que en la sección anterior y se encuentran resultados similares pero con una matiz distinta.
 
 | ![](../results/arbol_decision_nivel_max_estudios.png) |
 |:--:|
-| <b>Arbol de decisión para clasificar el nivel educativo (restructurado) para la persona con máximo nivel de estudios en la vivienda</b>|
+| <b>Arbol de decisión para clasificar el nivel educativo (reestructurado) para la persona con máximo nivel de estudios en la vivienda</b>|
 
-Despues de crear el modelo, obtenemos las siguientes observaciones 
+Después de crear el modelo, obtenemos las siguientes observaciones 
 1. El atributo con mayor peso en el nivel de estudios sigue siendo el Uso de computadora en los últimos 3 meses.
-2. Despues ha hecho uso de Internet en los últimos 3 meses.
-3. Por último siposee una laptop (computadora personal).
+2. Después ha hecho uso de Internet en los últimos 3 meses.
+3. Por último si posee una laptop (computadora personal).
 
 Con este modelo se consigue un error (rmse) de test es de 0.88. Esto implica que utilizando este arbol podemos estar aproximadamente 1 nivel seguros de nuestra predicción. Es importante mencionar que este modelo es ligeramente mejor que el anterior.
 
 ## Discusión
 
-Con esta información podemos observar que el uso de tecnologias de informacion (computadora, internet, celular) esta directamente relacionado con el nivel de estudios. Cuando hacemos una predicción del nivel de estudios, el primer parametro a considerar es si el individuo hace uso de la computadora y sí hace uso de internet.
+Con esta información podemos observar que el uso de tecnologías de información (computadora, internet, celular) esta directamente relacionado con el nivel de estudios. Cuando hacemos una predicción del nivel de estudios, el primer parametro a considerar es si el individuo hace uso de la computadora y sí hace uso de internet.
 
-Es importante resaltar que aunque nuestro objetivo era prececir con base en los datos de la vivienda, estos terminan siendo no tan relevantes para la predicción.
+Es importante resaltar que aunque nuestro objetivo era predecir con base en los datos de la vivienda, estos terminan siendo no tan relevantes para la predicción.
 
 En cuanto a la diferencia entre los conjuntos de datos de Nivel máximo de estudios en la vivienda y Nivel de estudios en el jefe de la vivienda, podemos obtener observaciones interesantes. Si el individuo posee una laptop ayudará a clasificar si el nivel máximo de estudios es primaria o secundaria, sabiendo que no usa internet o computadora recientemente. Un efecto parecido ocurre con la edad del jefe de la vivienda en la primera clasificación, el efecto es claro, no uso de la computadora e internet y una edad avanzada esta relacionado a bajo nivel educativo (primaria).
 
 ## Conclusión
 
-La tabla presentada contiene información sumamente importante sobre como se encuentra atualmente el uso de las tecnologías de información en México. Uno de los datos más importantes es el nivel educativo de la persona encuestada, el cual se encuentra representado por la columna "NIVEL" y es el objetivo de este estudio.
+La tabla presentada contiene información sumamente importante sobre como se encuentra actualmente el uso de las tecnologías de información en México. Uno de los datos más importantes es el nivel educativo de la persona encuestada, el cual se encuentra representado por la columna "NIVEL" y es el objetivo de este estudio.
 
 Existen datos que pueden ser relevantes para futuros análisis, pero en este estudio se centran principalmente en el nivel educativo de la persona encuestada.
 
