@@ -40,27 +40,53 @@ La cantidad de registros en estas tablas se encuentra organizada por entidad fed
 
 De igual manera se pueden representar cuales de estos registros son hombres y mujeres en el mapa. Pueden observarse algunas diferencias en los mapas como entre el noroeste y noreste del pais que parecen invertirse. Lo anterior puede representar un posible sesgo en la recolección de los datos.
 
-!["Mapa de cantidad de Mujeres en el registro por entidad federativa"](../results/mapa_mujeres.png)
-!["Mapa de cantidad de Hombres en el registro por entidad federativa"](../results/mapa_hombres.png)
+| ![](../results/mapa_mujeres.png) |
+|:--:|
+| <b>Mapa de cantidad de Mujeres en el registro por entidad federativa</b>|
+
+| ![](../results/mapa_hombres.png) |
+|:--:|
+| <b>Mapa de cantidad de Hombres en el registro por entidad federativa</b>|
+
 
 Para nuestro estudio utilizamos el Jefe de cada vivienda para seguir con el análisis. A continuación se diferencia sexo del jefe de la vivienda por nivel académico. Puede observarse claramente como en este caso si existe un dominio del sexo masculino en nivel educativo.
 
-!["Cantidad de registros de cada jefe de vivienda según nivel educativo y sexo"](../results/nivel_sexo_total.png)
+| ![](../results/nivel_sexo_total.png) |
+|:--:|
+| <b>Cantidad de registros de cada jefe de vivienda según nivel educativo y sexo</b>|
 
 Ahora comparamos el nivel educativo según la edad de cada registro. En el siguiente gráfico puede observarse como el nivel educativova disminuyendo según subimos en la edad de cada encuestado.
 
-!["Cantidad de registros según edad y nivel educativo de los jefes de vivienda"](../results/edad_nivel_total.png)
+| ![](../results/edad_nivel_total.png) |
+|:--:|
+| <b>Cantidad de registros según edad y nivel educativo de los jefes de vivienda</b>|
 
 ### Jalisco
 
 En esta sección se repiten algunos de los análsis, pero nos enfocamos en los registros del estado de Jalisco. Se puede observar como el efecto es ligeramente más pronunciado que en el caso de los datos nacionales, conforme se incrementa el nivel educativo son menos mujeres las que son jefes de vvivienda.
 
-!["Número de registros de jefes de vivivenda por nivel educativo y sexo en el estado de Jalisco"](../results/nivel_sexo_jal.png)
+| ![](../results/nivel_sexo_jal.png) |
+|:--:|
+| <b>Número de registros de jefes de vivivenda por nivel educativo y sexo en el estado de Jalisco</b>|
 
-En la siguiente parte se revisa nuevamente el nivel educativo por edad. Puede observarse como
+En la siguiente parte se revisa nuevamente el nivel educativo por edad. Puede observarse como el patrón nacional se repite, conforme sube la edad, el nivel educativo va disminuyendo.
 
+| ![](../results/edad_nivel_jal.png) |
+|:--:|
+| <b>Número de registros de jefes de vivivenda por nivel educativo y edad en el estado de Jalisco</b>|
 
+Ahora revisamos el uso de la computadora o pc por edad. Puede observars como también este valor va disminuyendo con la edad, siendo el máximo entre los 30 y 50 años. Lo anterior tiene sentido ya que se trata en las edades donde existen más trabajadores. Es importante mencionar que el uso de la pc en los últimos 3 meses nunca es dominante en estos niveles de edad gráficados.
 
-!["Hola"](../results/edad_internet_jal.png)
+| ![](../results/edad_pc_jal.png) |
+|:--:|
+| <b>Número de registros de jefes de vivivenda por uso de la computadora en los últimos 3 meses y edad en el estado de Jalisco</b>|
 
-## 
+Por último se revisa el uso del internet en los últimos 3 meses. Puede observarse como a diferencia del gráfico anterior este si es dominante en la población por edad en general. Nuevamente se observa como disminuye conforme incrementa la edad.
+
+| ![](../results/edad_internet_jal.png) |
+|:--:|
+| <b>Número de registros de jefes de vivivenda por uso del internet en los últimos 3 meses y edad en el estado de Jalisco</b>|
+
+## Modelo de clasificación árboles de decisión
+
+Conociendo la naturaleleza de los datos
