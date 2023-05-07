@@ -41,6 +41,22 @@ De igual manera se pueden representar cuales de estos registros son hombres y mu
 !["Mapa de cantidad de Mujeres en el registro por entidad federativa"](../results/mapa_mujeres.png)
 !["Mapa de cantidad de Hombres en el registro por entidad federativa"](../results/mapa_hombres.png)
 
+Para nuestro estudio utilizamos el Jefe de cada vivienda para seguir con el análisis. A continuación se diferencia sexo del jefe de la vivienda por nivel académico. Puede observarse claramente como en este caso si existe un dominio del sexo masculino en nivel educativo.
+
+!["Cantidad de registros de cada jefe de vivienda según nivel educativo y sexo"](../results/nivel_sexo_total.png)
+
+Ahora comparamos el nivel educativo según la edad de cada registro. En el siguiente gráfico puede observarse como el nivel educativova disminuyendo según subimos en la edad de cada encuestado.
+
+!["Cantidad de registros según edad y nivel educativo de los jefes de vivienda"](../results/edad_nivel_total.png)
+
+### Jalisco
+
+En esta sección se repiten algunos de los análsis, pero nos enfocamos en los registros del estado de Jalisco. Se puede observar como el efecto es ligeramente más pronunciado que en el caso de los datos nacionales, conforme se incrementa el nivel educativo son menos mujeres las que son jefes de vvivienda.
+
+!["Número de registros de jefes de vivivenda por nivel educativo y sexo en el estado de Jalisco"](../results/nivel_sexo_jal.png)
+
+
+
 !["Hola"](../results/edad_internet_jal.png)
 
 ## 
