@@ -111,6 +111,10 @@ En esta clasificación se obtienen resultados parecidos (1ro y 2do nodo).
 
 Con estos árboles podemos hablar que el uso de la computadora y el internet si ayuda a predecir el nivel educativo de las personas en la vivienda (jefe y máximo nivel de estudios).
 
+# Difusión
+
+Este proyecto fue compartido publicamente en LinkedIn y la publicación puede ser encontrada en el siguiente [enlace](https://www.linkedin.com/)
+
 
 # Referencias
 
