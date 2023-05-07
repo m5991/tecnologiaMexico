@@ -2,6 +2,6 @@
 
 ## Análisis EDA
 
-!["Hola"]("../results/edad_internet_jal.png")
+!["Hola"](../results/edad_internet_jal.png)
 
 ## 
