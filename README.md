@@ -64,7 +64,7 @@ Con estos árboles podemos hablar que el uso de la computadora y el internet si 
 
 # Divulgación
 
-Este proyecto fue compartido públicamente en LinkedIn y la publicación puede ser encontrada en el siguiente [enlace](https://www.linkedin.com/).
+Este proyecto fue compartido públicamente en LinkedIn y la publicación puede ser encontrada en el siguiente [enlace](https://www.linkedin.com/feed/update/urn:li:activity:7061112250903756800?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7061112250903756800%29).
 
 
 # Referencias
